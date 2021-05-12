@@ -11,7 +11,7 @@ import random
 
 file = pd.read_csv('C:/Users/acer/Downloads/danh-sach-sinh-vien.csv')
 print(file.head(14))
-print("-"*34)
+print("-"*45)
 
 #Chọn ngẫu nhiên 7 sv trong ds
 files = file.sample(n=7)
